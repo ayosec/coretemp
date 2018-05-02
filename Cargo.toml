@@ -1,0 +1,11 @@
+[package]
+name = "coretemp"
+version = "0.1.0"
+authors = ["app"]
+
+[dependencies]
+noisy_float = "0.1"
+
+[profile.release]
+lto = true
+panic = "abort"

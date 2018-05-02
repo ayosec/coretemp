@@ -1,0 +1,32 @@
+[[package]]
+name = "coretemp"
+version = "0.1.0"
+dependencies = [
+ "noisy_float 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "noisy_float"
+version = "0.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "num-traits 0.1.43 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "num-traits"
+version = "0.1.43"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "num-traits 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "num-traits"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum noisy_float 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)" = "71c7dff7d4837952bcf79fb6ad652c27644d835ce2df2e897d2c958add74ab8d"
+"checksum num-traits 0.1.43 (registry+https://github.com/rust-lang/crates.io-index)" = "92e5113e9fd4cc14ded8e499429f396a20f98c772a47cc8622a736e1ec843c31"
+"checksum num-traits 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "dee092fcdf725aee04dd7da1d21debff559237d49ef1cb3e69bcb8ece44c7364"
